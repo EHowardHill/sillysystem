@@ -6,7 +6,7 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-chmod +x /1-prepare-system.sh
+chmod +x ./1-prepare-system.sh
 chmod +x ./2-compile-source.sh
 chmod +x ./3-create-disk.sh
 chmod +x ./4-emulator.sh
